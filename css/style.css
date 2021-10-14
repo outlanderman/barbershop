@@ -1,0 +1,79 @@
+/* body {
+	background-image: url(/img/barbershop-index-grid.jpg);
+	background-repeat: no-repeat;
+	background-position: 50% 3px;
+	background-size: 1122px auto;
+	background-color: #000000;
+} */
+.clearfix::after {
+	content: "";
+
+	display: table;
+	clear: both;
+}
+.container {
+	width: 940px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+.main-header {
+	margin-bottom: 60px;
+}
+.main-navigation {
+	float: left;
+	width: 780px;
+}
+.user-block {
+	float: right;
+	width: 140px;
+}
+.index-logo {
+	width: 368px;
+	height: 204px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 25px;
+}
+.features {
+	margin-bottom: 80px;
+}
+.feautures-item {
+	float: left;
+	width: 300px;
+	margin-right: 20px;
+}
+.feautures-item:last-child {
+	margin-right: 0;
+}
+.index-content {
+	margin-bottom: 35px;
+	padding: 50px 80px;
+}
+.index-content-left {
+	float: left;
+	width: 380px;
+}
+.index-content-right {
+	float: right;
+	width: 300px;
+}
+.main-footer {
+	margin-top: 65px;
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+
+.footer-contacts {
+	float: left;
+	width: 320px;
+	margin-right: 60px;
+}
+.footer-social {
+	float: left;
+	width: 180px;
+}
+
+.footer-copyright {
+	float: right;
+	width: 180px;
+}
