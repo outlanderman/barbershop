@@ -8,14 +8,14 @@ body {
 	color: #ffffff;
 	text-transform: uppercase;
 	background-color: #000000;
-	background-image: url(/img/body-bg.jpg);
+	background-image: url(../img/body-bg.jpg);
 	background-repeat: no-repeat;
 	background-position: center top;
 }
 .inner-page {
 	color: #000000;
 
-	background: #f8f3f0 url(/img/pattern-white.jpg) repeat;
+	background: #f8f3f0 url(../img/pattern-white.jpg) repeat;
 }
 .clearfix::after {
 	content: "";
@@ -132,7 +132,7 @@ body {
 	height: 18px;
 
 	background-color: transparent;
-	background-image: url(/img/icon/sprite.png);
+	background-image: url(../img/icon/sprite.png);
 	background-repeat: no-repeat;
 	background-position: 0 0;
 	opacity: 0.3;
@@ -198,7 +198,7 @@ body {
 	color: #000000;
 
 	background-color: #f8f5f2;
-	background-image: url(/img/index-content-shadow.png), url(/img/pattern-white.jpg);
+	background-image: url(../img/index-content-shadow.png), url(../img/pattern-white.jpg);
 	background-repeat: no-repeat, repeat;
 	background-position: center, 0 0;
 }
@@ -419,7 +419,7 @@ body {
 	line-height: 48px;
 	text-align: center;
 
-	background: #f8f3f8 url(/img/pattern-white.jpg) repeat;
+	background: #f8f3f8 url(../img/pattern-white.jpg) repeat;
 }
 .big-heading::after {
 	content: "";
@@ -497,7 +497,7 @@ body {
 	color: #ffffff;
 
 	background-color: #252525;
-	background-image: url(/img/pattern-black.jpg);
+	background-image: url(../img/pattern-black.jpg);
 }
 
 .footer-contacts {
@@ -532,7 +532,7 @@ body {
 	text-decoration: none;
 
 	background-color: #000000;
-	background-image: url(/img/icon/sprite.png);
+	background-image: url(../img/icon/sprite.png);
 	background-repeat: no-repeat;
 	background-position: center;
 
