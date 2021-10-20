@@ -629,9 +629,6 @@ body {
 	}
 }
 
-.modal-error {
-	animation: shake 0.6s;
-}
 .modal-content-map {
 	position: fixed;
 	top: 50%;
@@ -661,9 +658,13 @@ body {
 
 	background: rgba(0, 0, 0, 0.5);
 }
+
 .modal-content-show {
 	display: block;
 	animation: bounce 0.6s;
+}
+.modal-error {
+	animation: shake 0.6s;
 }
 .modal-content-close {
 	position: absolute;
