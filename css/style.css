@@ -341,6 +341,10 @@ body {
 	font-size: 30px;
 	line-height: 42px;
 }
+.inner-content .login-form {
+	width: 300px;
+	margin: 0 auto;
+}
 .breadcrumbs {
 	margin: 0;
 	padding: 0;
