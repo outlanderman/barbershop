@@ -22,3 +22,7 @@ window.addEventListener("keydown", function (KeyboardEvent) {
 		}
 	}
 });
+mapOverlay.addEventListener("click", function () {
+	mapPopup.classList.remove("modal-content-show");
+	overlay.classList.remove("modal-content-show");
+})

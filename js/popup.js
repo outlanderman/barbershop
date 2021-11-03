@@ -41,3 +41,7 @@ window.addEventListener("keydown", function (KeyboardEvent) {
 		}
 	}
 });
+overlay.addEventListener("click", function () {
+	popup.classList.remove("modal-content-show");
+	overlay.classList.remove("modal-content-show");
+});
